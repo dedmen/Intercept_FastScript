@@ -1,7 +1,7 @@
 cmake_minimum_required (VERSION 3.0)
 
 
-file(GLOB_RECURSE INTERCEPT_PLUGIN_SOURCES *.h *.hpp *.c *.cpp)
+file(GLOB_RECURSE INTERCEPT_PLUGIN_SOURCES *.h *.hpp *.c *.cpp *.asm)
 SOURCE_GROUP("src" FILES ${INTERCEPT_PLUGIN_SOURCES})
 
 #If you want to split your source files into different directories you can do so here
